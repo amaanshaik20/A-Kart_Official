@@ -1,0 +1,64 @@
+.hero {
+    margin-top: 80px;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.offers {
+    display: flex;
+    justify-content: space-between;
+    border: 5px dotted lightcoral;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.offers img {
+    width: 250px;
+    border-radius: 30px;
+}
+
+.offers img:hover {
+    transform: scale(1.05);
+}
+
+.hero1 {
+    border-radius: 20px;
+    /* border: 5px dotted lightcoral; */
+    padding: 20px;
+    margin: 10px;
+}
+
+.hero1 img {
+    margin-left: 25%;
+}
+
+.offers1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: -10%;
+}
+
+.offers1 img {
+    width: 250px;
+    border-radius: 30px;
+}
+
+.offers1 #img1:hover {
+    transform: rotate(20deg);
+}
+
+.offers1 #img2:hover {
+    transform: rotate(-20deg);
+}
+
+#hero img {
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    width: 1400px;
+}

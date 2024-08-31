@@ -1,0 +1,59 @@
+.product{
+    margin:80px;
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-between;
+}
+
+.product .image img{
+    width: 500px;
+    height: 500px;
+}
+.product .title{
+    margin-left: 100px;
+    width: 320px;
+}
+.product .title pre{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.product .title .review{
+    margin-top: 30px;
+}
+.product .title .review img{
+    width: 250px;
+}
+.product .title button{
+    width: 120px;
+    background-color: brown;
+    color: white;
+}
+.product .title button:hover{
+    background-color: burlywood;
+    color: black;
+    cursor: pointer;
+}
+.product .more{
+    width: 300px;
+    display: grid;
+    margin-left: 100px;
+}
+.product .more h5{
+    margin-left: 40px;
+    font-size: 30px;
+}
+.product .more div{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.product .more div p{
+    margin-left: 40px;
+    font-size: 20px;
+}
+.product .more div img{
+    width: 200px;
+    height: 200px;
+}
+

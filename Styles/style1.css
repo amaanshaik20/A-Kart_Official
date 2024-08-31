@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    /* color: white; */
+}
+
+.section2 img {
+    height: 700px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* row-gap: 20px; */
+    column-gap: 25px;
+    /* border: 3px solid black; */
+    margin: 25px;
+    background-color: #cbb5b5;
+    margin-bottom: 20px;
+
+}
+
+.product {
+    background-color: white;
+    /* border: 2px dotted gray; */
+    margin: 3px;
+    padding: 30px;
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    max-width: 400px;
+    border-radius: 30px;
+    flex: 1 1 400px;
+}
+
+.products img {
+    border: 1px solid;
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px 5px 2px lightgray;
+    border-radius: 20px;
+}
+
+h1 {
+    /* color: white; */
+    text-align: center;
+    font-size: 80px;
+    color: black;
+}
+
+.products p {
+    color: black;
+    /* position: absolute; */
+    /* margin-top: -80px; */
+}
+
+.products button {
+    width: 100px;
+    margin-left: -0px;
+}
+
+
+.products button:hover {
+    background-color: darkgray;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.name {
+    text-align: center;
+}
+
+.product button {
+    background-color: red;
+    color: white;
+}
+
+@media(max-width:1017px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+
+#offer {
+    color: blue;
+}
+
+
+
+.hero img {
+    width: 100%;
+}
+
+.offers {
+    display: flex;
+    justify-content: space-between;
+    /* border: 5px dotted lightcoral; */
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.offers img {
+    width: 150px;
+    border-radius: 30px;
+}
+
+.offers img:hover {
+    transform: scale(0.85);
+}

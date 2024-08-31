@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    /* color: white; */
+}
+
+.section2 img {
+    height: 700px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap: 25px;
+    margin: 25px;
+    background-color: #cbb5b5;
+    margin-bottom: 20px;
+
+}
+
+.product {
+    background-color: white;
+    /* border: 2px dotted gray; */
+    margin: 3px;
+    padding: 30px;
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    max-width: 400px;
+    border-radius: 30px;
+    flex: 1 1 400px;
+    /* justify-content: center; */
+}
+
+.products img {
+    border: 1px solid;
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px 5px 2px lightgray;
+    border-radius: 20px;
+}
+
+.products #img1:hover {
+    content: url(/Images/Adidas2.jpg);
+}
+
+.products #img2:hover {
+    content: url(/Images/puma1.jpg);
+}
+
+.products #img3:hover {
+    content: url(/Images/nike1.jpg);
+}
+
+.products #img4:hover {
+    content: url(/Images/UA1.jpg);
+}
+
+.products #img5:hover {
+    content: url(/Images/reebok2.jpg);
+}
+
+.products #img6:hover {
+    content: url(/Images/USP1.jpg);
+}
+
+.products #img7:hover {
+    content: url(/Images/Casio.jpg);
+}
+
+.products #img8:hover {
+    content: url(/Images/fossil1.jpg);
+}
+
+.products #img9:hover {
+    content: url(/Images/boat1.jpg);
+}
+
+.products #img10:hover {
+    content: url(/Images/fossil1.jpg);
+}
+
+.products #img11:hover {
+    content: url(/Images/boat1.jpg);
+}
+
+.products #img12:hover {
+    content: url(/Images/Casio.jpg);
+}
+
+@media(max-width:362px) {
+    .heading {
+        font-size: 60px;
+    }
+}
+
+.filters {
+    border: 2px black solid;
+    height: 200px;
+    margin: 40px;
+    border-radius: 20px;
+}
+
+.container1 {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
+
+
+.products button {
+    width: 100px;
+    margin-left: 150px;
+    background-color: red;
+    color: white;
+
+}
+
+h1 {
+    color: black;
+}
+
+.products button:hover {
+    background-color: darkgray;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+
+#offer {
+    color: blue;
+}
